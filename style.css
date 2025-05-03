@@ -1,0 +1,27 @@
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #f8c2d1;
+    padding: 1rem;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+#preview {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.banderin {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 25px solid;
+}
