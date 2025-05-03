@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Paglyu</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <header>
+        <h1>Paglyu</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre Nosotros</a></li>
+                <li><a href="#">Tienda</a></li>
+                <li><a href="#">Personalizados</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="personalizados">
+            <h2>Personalizá tus banderines</h2>
+            <label>Color de la tira: <input type="color" id="tiraColor" /></label>
+            <label>Cantidad de banderines: <input type="number" id="cantidad" value="5"/></label>
+            <div id="preview" style="margin-top: 20px;"></div>
+            <button onclick="enviarWhatsapp()">¡Hacé tu pedido por WhatsApp!</button>
+        </section>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
